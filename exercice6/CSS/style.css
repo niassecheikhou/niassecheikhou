@@ -1,0 +1,36 @@
+body{
+    background-color:antiquewhite;
+}
+label {
+    color: rgb(31, 29, 29);  
+    display:grid;
+    grid-template-rows: auto auto;
+    font-size: 40px;
+    
+}
+input{
+    height: 40px;
+    width: 70%;
+    margin:auto;
+}
+button{
+    height: 40px;
+    width: 15%;
+    margin-top: 10px;
+}
+.formulaire{
+    
+    display: grid;
+    grid-template-rows:auto auto auto auto;
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    margin-top: 20rem;
+
+
+}
+input{
+    margin-top:20px; 
+  
+}
+
