@@ -1,10 +1,31 @@
+<?php
+include_once('fonction.php');
+session_start();
+if (isset($_SESSION['post'])) {
+    $jour=$_SESSION["post"]["jour"];
+    $mois=$_SESSION["post"]["mois"];
+    $annee=$_SESSION["post"]["annee"];
+    echo "la date precedante est de ";
+     datePrecedante($jour,$mois,$annee);
+        
+}
+             
+session_start();
+if (isset($_SESSION['post'])) {
+    $jour=$_SESSION["post"]["jour"];
+    $mois=$_SESSION["post"]["mois"];
+    $annee=$_SESSION["post"]["annee"];
+    echo "la date suivante est de ";
+     dateSuivante( $jour, $mois, $annee);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     
     <title>exercice7</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
     <section>
