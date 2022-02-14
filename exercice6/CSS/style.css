@@ -9,23 +9,25 @@ label {
     
 }
 input{
+    border: 1px solid rgb(199, 90, 90);
     height: 40px;
     width: 70%;
     margin:auto;
 }
 button{
+    
     height: 40px;
     width: 15%;
     margin-top: 10px;
 }
 .formulaire{
     
-    display: grid;
+    display:grid;
     grid-template-rows:auto auto auto auto;
     text-align: center;
-    width: 50%;
+    width: 40%;
     margin:auto;
-    margin-top: 20rem;
+    margin-top: 2rem;
 
 
 }

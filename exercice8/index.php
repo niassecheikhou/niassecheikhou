@@ -19,6 +19,8 @@
              <button type="submit" name="rechercher">envoyer</button>
          </form>
      </section>
+                <button><a href="../exercice7/index.php">précedant</a></button>
+                <button><a href="../exercice9/index.php">suivant</a></button>
      
  </body>
  </html>

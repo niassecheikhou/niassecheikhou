@@ -14,8 +14,10 @@
   </head>
   <body>
   <?php  
-        echo "la valeur avant permutation est de".permitation()."<br/>";
-        echo " la valeur apres permitation est de".permitation()."<br/>";
+        echo "<strong>"."la valeur avant permutation est de : ".permitation()."<br/>"."<br/>";
+        echo "<strong>"." la valeur apres permitation est de : ".permitation()."<br/>"."<br/>";
   ?>
+             <button><a href="../exercice3/index.php">précedant</a></button>
+             <button><a href="../exercice5/index.php">suivant</a></button>
   </body>
   </html>

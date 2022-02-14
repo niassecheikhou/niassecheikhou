@@ -74,7 +74,7 @@ Le champ est obligatoire et la date est valide. -->
                     echo "28 - 2 - ".$a;
                 }
                 elseif($j==1 && ($m==4 or $m==6 or $m==8 or $m==9 or $m==11)){
-                    echo "31-".($m-1)."-".($a);
+                    echo " 31- ".($m-1)." - ".($a);
                 }
              }
                 

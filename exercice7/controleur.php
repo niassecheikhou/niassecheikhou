@@ -15,20 +15,5 @@
             }
 
         }
-//    $j=$_POST["jours"];
-//    $m=$_POST["mois"];
-//    $a=$_POST["annee"];
-//    $rechercher=$_POST["envoyer"];
-//     if (isset($rechercher)){
-//         echo "nombe";
-//         if((is_numeric($j)) ){
-                
-//                 echo "valider";
-                
-//          }
-//          else{
-//              echo "inavalide";
-             
-//          }
-//     }
+
 ?>

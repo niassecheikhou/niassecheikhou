@@ -30,5 +30,7 @@
                 </form>
                 
         </div>
+                <button><a href="../exercice5/index.php">précedant</a></button>
+                <button><a href="../exercice7/index.php">suivant</a></button>
     </body>
 </html>

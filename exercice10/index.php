@@ -3,10 +3,7 @@ et on génère les N champs inputs . N est positif. -->
 <?php  
     include_once("fonction.php");
     session_start();
-    if(isset($_POST["post"])){
-        $nbre=$_SESSION["post"]["nbr"];
-        echo "error";
-    }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,9 +14,33 @@ et on génère les N champs inputs . N est positif. -->
 </head>
 <body>
     <form method="post" action="controleur.php">
-      <input type="text" name="nombre" placeholder="saissir ici le nombre"></input>
-    <button type="submit" name="valide">valider</button>
-
+        <input type="text" name="nombre" placeholder="saissir ici le nombre"></input>
+        <div class="erreur">
+            <?php 
+            if(isset($_SESSION["erreur"])){
+                echo $_SESSION["erreur"];
+            }
+            ?>
+        </div>
+        <button type="submit" name="valide">valider</button>
     </form>
+
+    <button><a href="../exercice9/index.php">précedant</a></button>
+    <button><a href="../exercice11/index.php">fin</a></button>
+ <div>
+    <?php 
+if(isset($_SESSION["post"])){
+    siChampsValide($_SESSION["post"]["nombre"]);
+}
+
+    ?>
+ </div>
 </body>
 </html>
+<?php
+ if(isset($_SESSION["post"]) or isset($_SESSION["erreur"])){
+     unset($_SESSION["post"]);
+     unset($_SESSION["erreur"]);
+ }
+
+?>

@@ -1,0 +1,12 @@
+body{
+   background-color:rgb(194, 144, 186);
+}
+.container{
+
+   padding: 30px;
+   width: 25rem;
+   height: 20rem;
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+}

@@ -5,14 +5,15 @@
        
         if(isset($_POST["valide"])){
 
-            $nbre=$_POST["nbr"];
+            $nombre=$_POST["nombre"];
         
-            if((is_numeric($nbre)) && ($nbre>0)){
+            if((is_numeric($nombre)) && ($nombre>0)){
                 $_SESSION['post']=$_POST;
-                header('location:index.php');
             }
             else{
-                header('location:index.php');
-            }
+                $_SESSION["erreur"]="veuillez revoir  votre saisie";
+             }
+            header('location:index.php');  
+            
         }
 ?>

@@ -1,8 +1,8 @@
 <?php
         $nombre1=rand(1,10);
         $nombre2=rand(1,10);
-        echo "le premier nombre est de" .$nombre1."<br/>";
-        echo "le deuxieme nombre est de" .$nombre2."<br/>";
+        echo "<i>"."<strong>"."le premier nombre est de " .$nombre1."<br/>"."<br/>";
+        echo "<i>"."<strong>"."le deuxieme nombre est de " .$nombre2."<br/>"."<br/>";
          function somme(){
             global $nombre1;
             global $nombre2;
